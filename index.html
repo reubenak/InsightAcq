@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Insight Acquisitions | CPA-Led Financial Due Diligence</title>
+  <meta name="description" content="Senior, CPA-led financial due diligence and Quality of Earnings (QoE) for lower-middle-market acquisitions, independent sponsors, and search funds." />
+  
+  <!-- Inter Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="brand-logo" onclick="switchPage('home')">
+        <span class="logo-mark">IA</span>
+        <span class="logo-text">Insight <strong>Acquisitions</strong></span>
+      </a>
+
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <button class="nav-link active" onclick="switchPage('home')">Home</button>
+        <button class="nav-link" onclick="switchPage('services')">Services</button>
+        <button class="nav-link" onclick="switchPage('about')">About & Pedigree</button>
+        <button class="nav-link" onclick="switchPage('contact')">Contact</button>
+        <button class="btn btn-primary nav-cta" onclick="switchPage('contact')">Schedule a Call</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main View Container -->
+  <main id="app-root">
+
+    <!-- PAGE 1: HOME -->
+    <section id="page-home" class="page-view active-page">
+      <!-- Hero -->
+      <header class="hero">
+        <div class="container hero-content">
+          <div class="badge">CPA-Led Buy-Side & Sell-Side Advisory</div>
+          <h1 class="hero-title">Big-Firm Due Diligence.<br><span class="accent-text">Zero Delegation.</span></h1>
+          <p class="hero-subtext">
+            Institutional-grade Quality of Earnings (QoE) and transaction advisory for search funds, independent sponsors, and lower-middle-market acquirers. Delivered without junior-staff handoffs or inflated hourly overhead.
+          </p>
+          <div class="hero-actions">
+            <button class="btn btn-primary btn-lg" onclick="switchPage('contact')">Schedule a Scoping Call</button>
+            <button class="btn btn-secondary btn-lg" onclick="switchPage('services')">Explore Services</button>
+          </div>
+        </div>
+      </header>
+
+      <!-- Metric Stats Ribbon -->
+      <section class="metrics-bar">
+        <div class="container metrics-grid">
+          <div class="metric-item">
+            <span class="metric-number">100+</span>
+            <span class="metric-label">Engagements Advised ($1M–$1B EV)</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-number">$500K–$10M</span>
+            <span class="metric-label">Target EBITDA Sweet Spot</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-number">2–3 Wks</span>
+            <span class="metric-label">Rapid Standard Delivery</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-number">100%</span>
+            <span class="metric-label">Partner-Level Execution</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- The Difference Section -->
+      <section class="section comparison-section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">Comparison</span>
+            <h2>Why Lower-Middle-Market Buyers Choose Us</h2>
+            <p>Traditional accounting firms pass smaller deals down the pyramid. We offer institutional quality with boutique accountability.</p>
+          </div>
+
+          <div class="table-card">
+            <table class="comparison-table">
+              <thead>
+                <tr>
+                  <th>Dimension</th>
+                  <th class="highlight-col">Insight Acquisitions</th>
+                  <th>Traditional Accounting Firms</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Team Structure</strong></td>
+                  <td class="highlight-col">Direct CPA partner execution; no junior staff handoffs</td>
+                  <td>Passed to first- and second-year associates</td>
+                </tr>
+                <tr>
+                  <td><strong>Turnaround Time</strong></td>
+                  <td class="highlight-col">2–3 weeks from full data access</td>
+                  <td>4–6+ weeks with recurring delays</td>
+                </tr>
+                <tr>
+                  <td><strong>Pricing Model</strong></td>
+                  <td class="highlight-col">Predictable, transparent flat fee</td>
+                  <td>Open-ended billable hours & scope creep</td>
+                </tr>
+                <tr>
+                  <td><strong>Commercial Mindset</strong></td>
+                  <td class="highlight-col">Pragmatic, deal-defense adjustments</td>
+                  <td>Academic, boilerplate checklists</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- How It Works Section -->
+      <section class="section workflow-section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">The Framework</span>
+            <h2>How It Works</h2>
+            <p>A proven, 4-phase transaction diligence lifecycle built for deal velocity.</p>
+          </div>
+
+          <div class="grid grid-4">
+            <div class="card step-card">
+              <div class="step-num">01</div>
+              <h3>Scoping & Flat Fee</h3>
+              <p>We review the CIM, assess the data room's health, align on custom scope parameters, and lock in a flat-fee quote within 24 hours.</p>
+            </div>
+            <div class="card step-card">
+              <div class="step-num">02</div>
+              <h3>Deep-Dive Analytics</h3>
+              <p>Direct inspection of raw general ledger records, trial balances, bank transactions, and revenue recognitions to surface run-rate earnings.</p>
+            </div>
+            <div class="card step-card">
+              <div class="step-num">03</div>
+              <h3>Interim Readouts</h3>
+              <p>No waiting until the 11th hour. Real-time red flag check-ins keep your team updated so you can adjust purchase terms immediately.</p>
+            </div>
+            <div class="card step-card">
+              <div class="step-num">04</div>
+              <h3>Lender-Ready Delivery</h3>
+              <p>Receipt of your institutional QoE report, working capital peg formulation, and debt-like schedule ready for credit committees and closing.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Banner -->
+      <section class="cta-banner">
+        <div class="container banner-inner">
+          <div>
+            <h2>Have a live transaction under LOI?</h2>
+            <p>Let's review the data room and set your diligence parameters today.</p>
+          </div>
+          <button class="btn btn-primary btn-lg" onclick="switchPage('contact')">Schedule Scoping Call</button>
+        </div>
+      </section>
+    </section>
+
+    <!-- PAGE 2: SERVICES -->
+    <section id="page-services" class="page-view">
+      <header class="page-header">
+        <div class="container">
+          <div class="badge">Comprehensive Advisory</div>
+          <h1>Transaction Advisory Services</h1>
+          <p class="lead">Built purposefully for private targets generating $500K to $10M in EBITDA.</p>
+        </div>
+      </header>
+
+      <section class="section">
+        <div class="container">
+          <div class="grid grid-2">
+
+            <div class="card service-detail-card">
+              <div class="service-icon">📊</div>
+              <h3>Full-Scope Post-LOI Quality of Earnings (QoE)</h3>
+              <p class="service-desc">The industry gold standard for buy-side and sell-side diligence. We rigorously test earnings reliability, identify EBITDA add-backs, and give lenders the confidence they require.</p>
+              <ul class="check-list">
+                <li>Normalized EBITDA & Pro-Forma Adjustments</li>
+                <li>Proof of Cash (Bank-to-Book Reconciliations)</li>
+                <li>Net Working Capital (NWC) Peg Recommendation</li>
+                <li>Debt and Debt-Like Item Schedules</li>
+                <li>Customer & Margin Concentration Analysis</li>
+              </ul>
+            </div>
+
+            <div class="card service-detail-card">
+              <div class="service-icon">⚡</div>
+              <h3>QoE Lite / Pre-LOI Red-Flag Screening</h3>
+              <p class="service-desc">Designed for searchers and independent sponsors facing tight bid deadlines or budget parameters before committing full diligence capital.</p>
+              <ul class="check-list">
+                <li>Rapid 3 to 5 business day delivery</li>
+                <li>High-level revenue sanity checks & cash corroboration</li>
+                <li>Evaluation of seller-proposed add-backs</li>
+                <li>Identification of deal-breakers before legal spend</li>
+              </ul>
+            </div>
+
+            <div class="card service-detail-card">
+              <div class="service-icon">🛠️</div>
+              <h3>P&L Reconstruction & Cash Normalization</h3>
+              <p class="service-desc">Many founder-owned businesses maintain messy, cash-basis, or commingled books. We reconstruct accrual-based statements from scratch.</p>
+              <ul class="check-list">
+                <li>Conversion of cash-basis records into GAAP-aligned P&Ls</li>
+                <li>Disentangling personal, affiliate, and non-operating costs</li>
+                <li>Restatement of inventory and accounts receivable balances</li>
+                <li>Clean ledger preparation for institutional underwriting</li>
+              </ul>
+            </div>
+
+            <div class="card service-detail-card">
+              <div class="service-icon">🤝</div>
+              <h3>Post-Acquisition & Tax Diligence</h3>
+              <p class="service-desc">We ensure continuous transaction support through close, protecting you against hidden tax liabilities and working capital disputes.</p>
+              <ul class="check-list">
+                <li>State nexus, franchise, and sales tax exposure assessments</li>
+                <li>Closing date balance sheet and working capital true-up support</li>
+                <li>Opening balance sheet formulation and Day-One transition</li>
+                <li>Co-investor & lender compliance readiness</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- PAGE 3: ABOUT / PEDIGREE -->
+    <section id="page-about" class="page-view">
+      <header class="page-header">
+        <div class="container">
+          <div class="badge">Firm Pedigree</div>
+          <h1>Elite Experience. Boutique Accountability.</h1>
+          <p class="lead">Delivering institutional diligence without big-firm red tape.</p>
+        </div>
+      </header>
+
+      <section class="section">
+        <div class="container about-wrapper">
+          <div class="about-main">
+            <h2>Led by a CPA with 100+ Transactions Advised</h2>
+            <p class="lead-p">
+              Insight Acquisitions was established on a simple realization: lower-middle-market acquirers, searchers, and small PE funds often pay top-tier firm fees only to have their deals handed down to inexperienced associates.
+            </p>
+            <p>
+              Our background spans <strong>Big 4</strong> accounting and specialized M&A transaction advisory practices at top global non-Big-4 firms. Across more than 100 closed buy-side and sell-side engagements—ranging from $1M founder recapitalizations to $1B+ corporate buyouts—we have evaluated virtually every balance sheet structure, earnings distortion, and add-back scenario.
+            </p>
+            
+            <div class="grid grid-2 about-features">
+              <div class="feature-box">
+                <h4>Industry Agnostic</h4>
+                <p>Deep expertise across SaaS & software, manufacturing, industrial services, healthcare, distribution, and oil & gas.</p>
+              </div>
+              <div class="feature-box">
+                <h4>Direct CPA Oversight</h4>
+                <p>No account managers or junior liaisons. The CPA who scopes your deal directly audits the trial balance and writes your report.</p>
+              </div>
+            </div>
+
+            <div class="quote-box">
+              <p>"Our objective is not to deliver a 150-page generic binder of academic accounting rules. Our objective is to safeguard your purchase price, isolate risks, and deliver clear, defensible earnings adjustments."</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- PAGE 4: CONTACT -->
+    <section id="page-contact" class="page-view">
+      <header class="page-header">
+        <div class="container">
+          <div class="badge">Inquire</div>
+          <h1>Initiate Deal Diligence</h1>
+          <p class="lead">Submit target parameters for an immediate, confidential scoping assessment.</p>
+        </div>
+      </header>
+
+      <section class="section">
+        <div class="container">
+          <div class="contact-grid">
+            
+            <!-- Form Card -->
+            <div class="card contact-form-card">
+              <form id="contact-form" onsubmit="handleFormSubmit(event)">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="fullName">Full Name *</label>
+                    <input type="text" id="fullName" name="name" required placeholder="Jane Doe">
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required placeholder="jane@fund.com">
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="buyerType">Acquirer / Organization Type *</label>
+                    <select id="buyerType" name="buyerType" required>
+                      <option value="" disabled selected>Select Buyer Type</option>
+                      <option value="Search Fund / ETA">Search Fund / ETA</option>
+                      <option value="Independent Sponsor">Independent Sponsor</option>
+                      <option value="Lower-Middle-Market PE">Lower-Middle-Market PE</option>
+                      <option value="Corporate / Strategic Buyer">Corporate / Strategic Buyer</option>
+                      <option value="Family Office / HNW Individual">Family Office / HNW Individual</option>
+                      <option value="Target Business (Sell-Side)">Target Business (Sell-Side QoE)</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="dealSize">Target EBITDA Range</label>
+                    <select id="dealSize" name="dealSize">
+                      <option value="" disabled selected>Select EBITDA Tier</option>
+                      <option value="Under $500K">Under $500K</option>
+                      <option value="$500K - $2M">$500K – $2M</option>
+                      <option value="$2M - $5M">$2M – $5M</option>
+                      <option value="$5M - $10M">$5M – $10M</option>
+                      <option value="$10M+">$10M+</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="timing">Deal Stage & Timing</label>
+                  <input type="text" id="timing" name="timing" placeholder="e.g., LOI signed, 45 days of exclusivity remaining">
+                </div>
+
+                <div class="form-group">
+                  <label for="details">Target Details & Scope Needed</label>
+                  <textarea id="details" name="details" rows="4" placeholder="Briefly describe target industry, accounting state (cash vs. accrual), or specific diligence concerns..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block">Submit Engagement Inquiry</button>
+              </form>
+              <div id="form-feedback" class="form-feedback hidden"></div>
+            </div>
+
+            <!-- Contact Sidebar -->
+            <div class="contact-info-panel">
+              <div class="card info-box">
+                <h3>Direct Partner Scoping</h3>
+                <p>Every transaction inquiry receives a direct review and response from our leadership within <strong>4 business hours</strong>.</p>
+                <hr class="divider">
+                <div class="info-point">
+                  <span class="info-label">Turnaround</span>
+                  <span class="info-val">Standard 2–3 weeks post-data room</span>
+                </div>
+                <div class="info-point">
+                  <span class="info-label">Pricing</span>
+                  <span class="info-val">Fixed, upfront flat-fee engagements</span>
+                </div>
+                <div class="info-point">
+                  <span class="info-label">Location</span>
+                  <span class="info-val">Nationwide (Remote Direct Execution)</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </section>
+
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <div class="logo-text">Insight <strong>Acquisitions</strong></div>
+        <p>Specialized financial due diligence and transaction advisory services for lower-middle-market acquisitions.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#" onclick="switchPage('home')">Home</a>
+        <a href="#" onclick="switchPage('services')">Services</a>
+        <a href="#" onclick="switchPage('about')">About</a>
+        <a href="#" onclick="switchPage('contact')">Contact</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="current-year"></span> Insight Acquisitions LLC. All Rights Reserved. Certified Public Accountant.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
